@@ -3,17 +3,19 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-.venv/
+*.sqlite3
+
+# Virtual environments
 venv/
+.env
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# MacOS system files
 .DS_Store
 
-# Node (for frontend later)
-node_modules/
-build/
+# VSCode
+.vscode/
+
+# Hugging Face cache (models too big for GitHub)
+.huggingface/
+.cache/
+
